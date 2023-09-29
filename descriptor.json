@@ -1,0 +1,51 @@
+{
+  "name": "Spotlight Control",
+  "type": "flogo:activity",
+  "version": "0.0.1",
+  "title": "A2: Spotlight Control",
+  "description": "Adjust spotlight color and direction",
+  "homepage": "https://github.com/AiRISTAFlowInc/FSSpotlightControl",
+  "input": [
+    {
+      "name": "LightHost",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "X",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Y",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "StartX",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "StartY",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Color",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "ResetTime",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "output": [
+    {
+      "name": "Status",
+      "type": "boolean"
+    }
+  ]
+}
