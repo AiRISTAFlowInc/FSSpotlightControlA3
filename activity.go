@@ -86,6 +86,7 @@ func RestCallMoveLightAndChangeColor(host string, color string, x string, y stri
 	resp, err := client.Do(req)
 	if err != nil {
 		fmt.Println("Error making request:", err)
+		return false
 	}
 	defer resp.Body.Close()
 	body, _ := io.ReadAll(resp.Body)

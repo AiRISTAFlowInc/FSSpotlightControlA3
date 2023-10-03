@@ -2,7 +2,7 @@
   "name": "Spotlight Control",
   "type": "flogo:activity",
   "version": "0.0.1",
-  "title": "A2: Spotlight Control",
+  "title": "A3: Spotlight Control",
   "description": "Adjust spotlight color and direction",
   "homepage": "https://github.com/AiRISTAFlowInc/FSSpotlightControl",
   "input": [
